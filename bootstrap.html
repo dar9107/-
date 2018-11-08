@@ -1,0 +1,206 @@
+<!doctype html>
+
+<html lang="en">
+    
+  <head>
+    
+    <meta charset="utf-8">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+      
+    <script src="https://use.fontawesome.com/0b4fe61555.js"></script>
+      
+    <style>
+      
+        .jumbotron {
+            
+            text-align: center;
+            margin-top:50px;
+            
+            
+        }
+        
+        #email {
+            
+            width:300px;
+            
+        }
+        
+        #appSummary {
+            
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            
+        }
+        
+        #footer{
+            
+            background-color: aqua;
+            padding-top: 150px;
+            margin-top: 50px;
+            text-align: center;
+            padding-bottom: 150px;
+            
+        }
+        
+        body {
+            
+            position: relative;
+                
+            
+        }
+    </style>
+      
+  </head>
+    
+  <body data-spy="scoll" data-target="#navbar" data-offset="150">
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top" id="navbar">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">Download The App</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#about">About</a>
+      </li>
+    </ul>
+    <form class="form-inline pull-xs-right">
+      <input class="form-control" type="email" placeholder="Email">
+        <input class="form-control" type="password" placeholder="Password">
+      <button class="btn btn-success" type="submit">Login</button>
+    </form>
+  </div>
+</nav>
+      
+      <div class="jumbotron">
+          
+          <h1 class="display-3">My Awesome App!</h1>
+          
+          <p class="lead">This is why YOU should download this fantasitc app!</p>
+          
+          <hr class="my-2">
+          
+          <p>Want to know more? Join our mailling list!</p>
+
+          <form class="form-inline justify-content-center">
+              
+              <div class="form-group">
+                  
+                <label class="sr-only" for="email">Email address</label>
+                  
+                  <div class="input-group">
+                      
+                    <div class="input-group-text">@</div>
+                      
+                    <input type="email" class="form-control" id="email" placeholder="Your email">
+                      
+                  </div>
+                  
+              </div>
+
+              <button type="submit" class="btn btn-primary">Sign up</button>
+              
+          </form>
+          
+      </div>
+      
+      <div class="container">
+      
+        <div id="appSummary">
+          
+            <h1>Why This App Is Awesome</h1>
+            <p class="lead">Summary, once again, of your app's awesomeness</p>
+          
+        </div>
+      
+      </div>
+    
+      <div class="card-deck">
+          <div class="card">
+              
+              <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+              
+              <div class="card-body">
+                  
+                <h5 class="card-title">Card title</h5>
+                  
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  
+              </div>
+          </div>
+          
+    <div class="card" id="about">
+        
+        <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+        
+        <div class="card-body">
+            
+            <h5 class="card-title">Card title</h5>
+            
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            
+        </div>
+        
+    </div>
+          
+          <div class="card">
+      
+    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+      
+              <div class="card-body">
+        
+      <h5 class="card-title">Card title</h5>
+        
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        
+              </div>
+      
+          </div>
+          
+      </div>
+      
+      <div class="container" id="footer">
+      
+        <div class="justify-content-center">
+          
+            <h2>Dowload the app!</h2>
+            <p class="lead">Relly, why should I download this app</p>
+        
+        </div>
+      
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+          
+          <script type="text/javascript">
+          
+          $('body').scrollspy({ target: '#navbar-example' })
+          
+          </script>
+      
+    
+  </body>
+    
+</html>
